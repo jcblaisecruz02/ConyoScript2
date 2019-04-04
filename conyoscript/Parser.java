@@ -106,6 +106,9 @@ class Parser {
 //< Classes parse-class-declaration
 //> Statements and State parse-statement
   private Stmt statement() {
+//> Control Flow match-do
+    if (match(DO)) return doStatement();
+//< Control Flow match-while
 //> Control Flow match-for
     if (match(FOR)) return forStatement();
 //< Control Flow match-for
@@ -126,6 +129,18 @@ class Parser {
     return expressionStatement();
   }
 //< Statements and State parse-statement
+//> Control Flow do-statement
+  private Stmt doStatement() {
+    Stmt body = statement();
+    consume(WHILE, "Expect 'while' after 'do'");
+    consume(LEFT_PAREN, "Expect '(' after 'while'.");
+    Expr condition = expression();
+    consume(RIGHT_PAREN, "Expect ')' after condition.");
+    consume(SEMICOLON, "Expect ';' after expression");
+
+    return new Stmt.Do(body, condition);
+  }
+//< Control Flow do-statement
 //> Control Flow for-statement
   private Stmt forStatement() {
     consume(LEFT_PAREN, "Expect '(' after 'for'.");
@@ -295,7 +310,7 @@ class Parser {
     Expr expr = or();
 //< Control Flow or-in-assignment
 
-    if (match(EQUAL) || match(PLUS_EQUAL)) {
+    if (match(EQUAL)) {
       Token equals = previous();
       Expr value = assignment();
 

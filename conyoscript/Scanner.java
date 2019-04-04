@@ -17,7 +17,7 @@ class Scanner {
     keywords.put("and",    				AND);
     //keywords.put("abstract", 			ABSTRACT);
     keywords.put("class",  				CLASS);
-    //keywords.put("gawa_like",  			DO);
+    keywords.put("gawa_like",  			DO);
     keywords.put("else",   				ELSE);
     keywords.put("deins",  				FALSE); //
     keywords.put("like_habang",    		FOR); //
@@ -87,8 +87,8 @@ class Scanner {
       case ',': addToken(COMMA); break;
       case '.': addToken(DOT); break;
       case '-': addToken(MINUS); break;
-      //case '+': addToken(PLUS); break;
-      case '+': addToken(match('=') ? PLUS_EQUAL : PLUS); break;
+      case '+': addToken(PLUS); break;
+      //case '+': addToken(match('=') ? PLUS_EQUAL : PLUS); break;
       case ';': addToken(SEMICOLON); break;
       case '*': addToken(STAR); break; // [slash]
 //> two-char-tokens

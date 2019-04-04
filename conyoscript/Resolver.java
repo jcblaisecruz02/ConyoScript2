@@ -126,6 +126,14 @@ class Resolver implements Expr.Visitor<Void>, Stmt.Visitor<Void> {
   }
 
 //< Classes resolver-visit-class
+//> visit-do-stmt
+  @Override
+  public Void visitDoStmt(Stmt.Do stmt) {
+    resolve(stmt.condition);
+    resolve(stmt.body);
+    return null;
+  }
+//< visit-do-stmt
 //> visit-expression-stmt
   @Override
   public Void visitExpressionStmt(Stmt.Expression stmt) {

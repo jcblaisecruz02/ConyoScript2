@@ -1,9 +1,3 @@
-make_gawa fib(n) {
-    if_like (n < 2) make_balik n;
-    make_balik fib(n - 1) + fib(n - 2);
-}
-
-make_salita("Input a number: ");
-so_like num = make_basa("%d");
-make_sabi("You inputted: " + num);
-make_sabi("Fibonacci of that number is: " + fib(num));
+so_like x = 3;
+x -= 1;
+make_sabi(x);

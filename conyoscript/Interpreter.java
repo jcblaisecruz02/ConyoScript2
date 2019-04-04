@@ -104,6 +104,19 @@ class Interpreter implements Expr.Visitor<Object>, Stmt.Visitor<Void> {
       @Override
       public String toString() { return "<native fn make_basa>"; }
     });
+    globals.define("Array", new ConyoCallable() {
+      @Override
+      public int arity() {
+        return 1;
+      }
+
+      @Override
+      public Object call(Interpreter interpreter,
+                         List<Object> arguments) {
+        int size = (int)(double)arguments.get(0);
+        return new ConyoArray(size);
+      }
+    });
   }
 
 
@@ -223,6 +236,15 @@ class Interpreter implements Expr.Visitor<Object>, Stmt.Visitor<Void> {
     return null;
   }
 //< Classes interpreter-visit-class
+//> Control Flow visit-while
+  @Override
+  public Void visitDoStmt(Stmt.Do stmt) {
+    do {
+      execute(stmt.body);
+    } while (isTruthy(evaluate(stmt.condition)));
+    return null;
+  }
+//< Control Flow visit-while
 //> Statements and State visit-expression-stmt
   @Override
   public Void visitExpressionStmt(Stmt.Expression stmt) {
@@ -308,7 +330,12 @@ class Interpreter implements Expr.Visitor<Object>, Stmt.Visitor<Void> {
     if (distance != null) {
       environment.assignAt(distance, expr.name, value);
     } else {
-      globals.assign(expr.name, value);
+      if (expr.name.lexeme.charAt(0) == 'f') {
+        throw new RuntimeError(expr.name,
+                "Variable is a constant");
+      } else {
+        globals.assign(expr.name, value);
+      }
     }
 
 //< Resolving and Binding resolved-assign

@@ -7,6 +7,7 @@ abstract class Stmt {
   interface Visitor<R> {
     R visitBlockStmt(Block stmt);
     R visitClassStmt(Class stmt);
+    R visitDoStmt(Do stmt);
     R visitExpressionStmt(Expression stmt);
     R visitFunctionStmt(Function stmt);
     R visitIfStmt(If stmt);
@@ -49,6 +50,21 @@ abstract class Stmt {
     final List<Stmt.Function> methods;
   }
 //< stmt-class
+//> stmt-do
+  static class Do extends Stmt {
+    Do(Stmt body, Expr condition) {
+      this.body = body;
+      this.condition = condition;
+    }
+
+    <R> R accept(Visitor<R> visitor) {
+      return visitor.visitDoStmt(this);
+    }
+
+    final Expr condition;
+    final Stmt body;
+  }
+//< stmt-do
 //> stmt-expression
   static class Expression extends Stmt {
     Expression(Expr expression) {

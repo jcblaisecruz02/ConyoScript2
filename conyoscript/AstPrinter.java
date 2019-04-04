@@ -121,6 +121,10 @@ class AstPrinter implements Expr.Visitor<String>, Stmt.Visitor<String> {
   }
 //< Statements and State omit
 //> Control Flow omit
+  @Override
+  public String visitDoStmt(Stmt.Do stmt) {
+  return parenthesize2("do", stmt.body, stmt.condition);
+}
 
   @Override
   public String visitWhileStmt(Stmt.While stmt) {

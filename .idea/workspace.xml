@@ -2,41 +2,118 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90e84719-2a0b-4059-8c19-d1cf9ab6d3e4" name="Default Changelist" comment="Initial recommit of working files.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/conyoscript/ConyoArray.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/conyoscript/AstPrinter.java" afterPath="$PROJECT_DIR$/conyoscript/AstPrinter.java" />
+      <change beforePath="$PROJECT_DIR$/conyoscript/Interpreter.java" afterPath="$PROJECT_DIR$/conyoscript/Interpreter.java" />
+      <change beforePath="$PROJECT_DIR$/conyoscript/Parser.java" afterPath="$PROJECT_DIR$/conyoscript/Parser.java" />
+      <change beforePath="$PROJECT_DIR$/conyoscript/Resolver.java" afterPath="$PROJECT_DIR$/conyoscript/Resolver.java" />
+      <change beforePath="$PROJECT_DIR$/conyoscript/Scanner.java" afterPath="$PROJECT_DIR$/conyoscript/Scanner.java" />
+      <change beforePath="$PROJECT_DIR$/conyoscript/Stmt.java" afterPath="$PROJECT_DIR$/conyoscript/Stmt.java" />
+      <change beforePath="$PROJECT_DIR$/conyoscript/TokenType.java" afterPath="$PROJECT_DIR$/conyoscript/TokenType.java" />
+      <change beforePath="$PROJECT_DIR$/examples/test.conyo" afterPath="$PROJECT_DIR$/examples/test.conyo" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/.idea/misc.xml" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/AstPrinter.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/AstPrinter.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/ConyoCallable.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/ConyoCallable.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/ConyoClass.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/ConyoClass.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/ConyoFunction.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/ConyoFunction.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Conyoscript.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Conyoscript.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Environment.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Environment.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Assign.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Assign.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Binary.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Binary.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Call.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Call.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Get.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Get.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Grouping.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Grouping.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Literal.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Literal.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Logical.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Logical.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Set.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Set.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Super.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Super.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$This.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$This.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Unary.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Unary.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Variable.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Variable.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Visitor.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr$Visitor.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Expr.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Interpreter$1.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Interpreter$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Interpreter$2.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Interpreter$2.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Interpreter$3.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Interpreter$3.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Interpreter$4.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Interpreter$4.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Interpreter$5.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Interpreter$5.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Interpreter.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Interpreter.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/LoxInstance.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/LoxInstance.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Parser$1.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Parser$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Parser$ParseError.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Parser$ParseError.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Parser.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Parser.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Resolver$ClassType.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Resolver$ClassType.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Resolver$FunctionType.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Resolver$FunctionType.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Resolver.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Resolver.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Return.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Return.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/RuntimeError.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/RuntimeError.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Scanner.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Scanner.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt$Block.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt$Block.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt$Class.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt$Class.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt$Expression.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt$Expression.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt$Function.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt$Function.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt$If.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt$If.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt$Print.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt$Print.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt$Return.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt$Return.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt$Var.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt$Var.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt$Visitor.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt$Visitor.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt$While.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt$While.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Stmt.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Token.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/Token.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/TokenType.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/conyoscript/TokenType.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/examples/test.conyo" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/examples/test.conyo" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/tool/GenerateAst$Beignet.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/tool/GenerateAst$Beignet.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/tool/GenerateAst$Cruller.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/tool/GenerateAst$Cruller.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/tool/GenerateAst$Pastry.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/tool/GenerateAst$Pastry.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/tool/GenerateAst$PastryVisitor.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/tool/GenerateAst$PastryVisitor.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ConyoScript2/tool/GenerateAst.class" afterPath="$PROJECT_DIR$/out/production/ConyoScript2/tool/GenerateAst.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/proglan$Lox.coverage" NAME="Lox Coverage Results" MODIFIED="1553085377702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.proglang.conyoscript.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="test.conyo" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/test.conyo">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="54" lean-forward="true" selection-end-line="8" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="330">
-                <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>while</find>
+      <find>whileState</find>
+      <find>assignment</find>
+      <find>Expr.Ass</find>
+      <find>equal</find>
+      <find>add</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -46,31 +123,79 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/com/proglang/conyoscript/TokenType.java" />
+        <option value="$PROJECT_DIR$/com/proglang/conyoscript/Token.java" />
+        <option value="$PROJECT_DIR$/com/proglang/conyoscript/Scanner.java" />
+        <option value="$PROJECT_DIR$/com/proglang/conyoscript/Stmt.java" />
+        <option value="$PROJECT_DIR$/com/proglang/conyoscript/Resolver.java" />
+        <option value="$PROJECT_DIR$/com/proglang/conyoscript/AstPrinter.java" />
+        <option value="$PROJECT_DIR$/com/proglang/conyoscript/Expr.java" />
+        <option value="$PROJECT_DIR$/com/proglang/conyoscript/Runtime.java" />
+        <option value="$PROJECT_DIR$/com/proglang/conyoscript/Parser.java" />
+        <option value="$PROJECT_DIR$/com/proglang/conyoscript/Interpreter.java" />
+        <option value="$PROJECT_DIR$/com/proglang/conyoscript/Lox.java" />
+        <option value="$PROJECT_DIR$/tests/test" />
+        <option value="$PROJECT_DIR$/conyoscript/Stmt.java" />
+        <option value="$PROJECT_DIR$/conyoscript/AstPrinter.java" />
+        <option value="$PROJECT_DIR$/conyoscript/Resolver.java" />
+        <option value="$PROJECT_DIR$/conyoscript/Interpreter.java" />
+        <option value="$PROJECT_DIR$/conyoscript/ConyoArray.java" />
+        <option value="$PROJECT_DIR$/conyoscript/TokenType.java" />
+        <option value="$PROJECT_DIR$/conyoscript/Parser.java" />
+        <option value="$PROJECT_DIR$/conyoscript/Scanner.java" />
+        <option value="$PROJECT_DIR$/examples/test.conyo" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ConyoScript2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ConyoScript2" type="462c0819:PsiDirectoryNode" />
+              <item name="proglan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proglan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proglan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proglan" type="462c0819:PsiDirectoryNode" />
+              <item name="conyoscript" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -83,6 +208,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -96,35 +224,115 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConyoScript Runfile">
-    <configuration name="ConyoScript REPL" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="conyoscript.Conyoscript" />
-      <module name="ConyoScript2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
     </configuration>
-    <configuration name="ConyoScript Runfile" type="Application" factoryName="Application">
+    <configuration name="Conyoscript" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.proglang.conyoscript.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="MAIN_CLASS_NAME" value="conyoscript.Conyoscript" />
-      <module name="ConyoScript2" />
+      <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="examples/test.conyo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Generate AST" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="tool.GenerateAst" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="ConyoScript2" />
-      <option name="PROGRAM_PARAMETERS" value="conyoscript/" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <envs />
     </configuration>
-    <list>
-      <item itemvalue="Application.ConyoScript Runfile" />
-      <item itemvalue="Application.ConyoScript REPL" />
-      <item itemvalue="Application.Generate AST" />
-    </list>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.proglang.conyoscript.Lox" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="tests/test" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Conyoscript" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -137,78 +345,316 @@
       <option name="presentableId" value="Default" />
       <updated>1553189406139</updated>
       <workItem from="1553189407450" duration="656000" />
+      <workItem from="1554370467715" duration="1338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="656000" />
+    <option name="totallyTimeSpent" value="6664000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24964234" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3686747" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3679558" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2488889" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial recommit of working files." />
     <option name="LAST_COMMIT_MESSAGE" value="Initial recommit of working files." />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/examples/test.conyo">
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/Parser.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/Expr.java" />
+    <entry file="file://$PROJECT_DIR$/tests/test" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/Interpreter.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/Parser.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/Stmt.java" />
+    <entry file="file://$PROJECT_DIR$/tests/test" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/Interpreter.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/Parser.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/Stmt.java" />
+    <entry file="file://$PROJECT_DIR$/tests/test" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/Parser.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/Stmt.java" />
+    <entry file="file://$PROJECT_DIR$/tests/test" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/tool/GenerateAst.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/Return.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/Environment.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/LoxCallable.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/LoxClass.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/LoxFunction.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/LoxInstance.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/Scanner.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/AstPrinter.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/TokenType.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/Stmt.java" />
+    <entry file="file://$PROJECT_DIR$/Code.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/Token.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/Resolver.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/Parser.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/Expr.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/Runtime.java" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/Lox.java" />
+    <entry file="file://$PROJECT_DIR$/tests/test" />
+    <entry file="file://$PROJECT_DIR$/com/proglang/conyoscript/Interpreter.java" />
+    <entry file="file://$PROJECT_DIR$/conyoscript/Return.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="54" lean-forward="true" selection-end-line="8" selection-end-column="54" />
+        <state relative-caret-position="51">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/conyoscript/ConyoClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-469">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conyoscript/ConyoFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conyoscript/Environment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conyoscript/AstPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="122" column="19" lean-forward="false" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conyoscript/Stmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conyoscript/Resolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="130" column="34" lean-forward="false" selection-start-line="130" selection-start-column="34" selection-end-line="130" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conyoscript/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conyoscript/ConyoCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conyoscript/Conyoscript.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="99" column="5" lean-forward="false" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conyoscript/TokenType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conyoscript/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="312" column="20" lean-forward="false" selection-start-line="312" selection-start-column="20" selection-end-line="312" selection-end-column="20" />
+          <folding>
+            <element signature="e#14115#14116#0" expanded="false" />
+            <element signature="e#14150#14151#0" expanded="false" />
+            <element signature="e#14176#14177#0" expanded="false" />
+            <element signature="e#14212#14213#0" expanded="false" />
+            <element signature="e#14242#14243#0" expanded="false" />
+            <element signature="e#14282#14283#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conyoscript/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="89" column="6" lean-forward="false" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conyoscript/Expr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conyoscript/Interpreter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="116" column="30" lean-forward="false" selection-start-line="116" selection-start-column="30" selection-end-line="116" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conyoscript/ConyoArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/test.conyo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ConyoScript2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
