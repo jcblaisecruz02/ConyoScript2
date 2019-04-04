@@ -53,9 +53,15 @@ class Environment {
   }
 //< environment-assign
 //> environment-define
-  void define(String name, Object value) {
-    values.put(name, value);
+  void define(Token name, Object value) {
+    if (values.containsKey(name.lexeme)) {
+      throw new RuntimeError(name,
+              name.lexeme + "' already declared.");
+    }
+    values.put(name.lexeme, value);
   }
+
+  void define(String name, Object value) { values.put(name, value); }
 //< environment-define
 //> Resolving and Binding ancestor
   Environment ancestor(int distance) {

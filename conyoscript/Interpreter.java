@@ -192,7 +192,7 @@ class Interpreter implements Expr.Visitor<Object>, Stmt.Visitor<Void> {
     }
 
 //< Inheritance interpret-superclass
-    environment.define(stmt.name.lexeme, null);
+    environment.define(stmt.name, null);
 //> Inheritance begin-superclass-environment
 
     if (stmt.superclass != null) {
@@ -264,7 +264,7 @@ class Interpreter implements Expr.Visitor<Object>, Stmt.Visitor<Void> {
 //> Classes construct-function
     ConyoFunction function = new ConyoFunction(stmt, environment, false);
 //< Classes construct-function
-    environment.define(stmt.name.lexeme, function);
+    environment.define(stmt.name, function);
     return null;
   }
 //< Functions visit-function
@@ -304,7 +304,7 @@ class Interpreter implements Expr.Visitor<Object>, Stmt.Visitor<Void> {
       value = evaluate(stmt.initializer);
     }
 
-    environment.define(stmt.name.lexeme, value);
+    environment.define(stmt.name, value);
     return null;
   }
 //< Statements and State visit-var

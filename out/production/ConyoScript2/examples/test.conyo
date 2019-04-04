@@ -1,3 +1,5 @@
-so_like x = 3;
-x -= 1;
-make_sabi(x);
+make_gawa fib() {
+    so_like x = 3;
+}
+
+x = x ++ 3

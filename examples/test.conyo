@@ -1,0 +1,5 @@
+make_gawa fib() {
+    so_like x = 3;
+}
+
+x = x ++ 3;

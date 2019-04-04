@@ -23,7 +23,11 @@ public class ConyoArray extends LoxInstance {
                 public Object call(Interpreter interpreter,
                                    List<Object> arguments) {
                     int index = (int)(double)arguments.get(0);
-                    return elements[index];
+                    if (index < elements.length)
+                        return elements[index];
+                    else
+                        throw new RuntimeError(name, // [hidden]
+                                "Index out of bounds '" + name.lexeme + "'.");
                 }
             };
         } else if (name.lexeme.equals("set")) {
@@ -38,7 +42,11 @@ public class ConyoArray extends LoxInstance {
                                    List<Object> arguments) {
                     int index = (int)(double)arguments.get(0);
                     Object value = arguments.get(1);
-                    return elements[index] = value;
+                    if (index < elements.length)
+                        return elements[index] = value;
+                    else
+                        throw new RuntimeError(name, // [hidden]
+                                "Index out of bounds '" + name.lexeme + "'.");
                 }
             };
         } else if (name.lexeme.equals("length")) {
