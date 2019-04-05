@@ -1,0 +1,11 @@
+make_salita("Input a number: ");
+so_like number = make_basa("%d");
+if_like (number > 0) {
+  make_salita("Number is positive.");
+}
+if_like (number < 0) {
+  make_salita("Number is negative.");
+}
+if_like (number == 0) {
+  make_salita("Number is 0.");
+}

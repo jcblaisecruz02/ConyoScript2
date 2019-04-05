@@ -1,0 +1,5 @@
+so_like i = 10;
+gawa_like {
+  make_sabi(i);
+  i = i - 1;
+} habang_like(i > 1);

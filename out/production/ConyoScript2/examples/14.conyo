@@ -1,0 +1,5 @@
+make_gawa getSum (x, y) {
+  make_balik x + y;
+}
+so_like sum = getSum(2,3);
+make_sabi(sum);

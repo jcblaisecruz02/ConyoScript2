@@ -1,0 +1,10 @@
+make_gawa test() {
+  make_balik 2 + 4;
+}
+so_like A = Array(3);
+A.set(0, 1);
+A.set(1, 2);
+A.set(2, 3);
+so_like x = 4;
+so_like sum = x + 2 * 3 + ((4 * 2 * (3 + 2)) / 5) + A.get(0) + test();
+make_salita("The value is " + sum);

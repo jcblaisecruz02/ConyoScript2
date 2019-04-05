@@ -1,5 +1,24 @@
-make_gawa fib() {
-    so_like x = 3;
+class D {
+ quack() {
+  make_sabi("I quack");
+ }
+
+ walk() {
+  make_sabi("waddle waddle");
+ }
 }
 
-x = x ++ 3;
+class C < D {
+ init(name) {
+  this.name = name;
+ }
+
+ bock() {
+  make_sabi(this.name + " bocks!");
+ }
+}
+
+so_like c = C("Henry");
+c.bock();
+c.quack();
+c.walk();

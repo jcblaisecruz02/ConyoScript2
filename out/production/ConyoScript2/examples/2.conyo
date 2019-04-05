@@ -1,0 +1,7 @@
+so_like a = 2;
+so_like b = 2.0;
+so_like test = "Hello";
+
+make_sabi(a);
+make_sabi(b);
+make_sabi(test);

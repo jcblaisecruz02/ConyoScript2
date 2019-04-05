@@ -1,0 +1,6 @@
+so_like num = 2;
+if_like (num * 3 > 5 and num + 3 == 5) {
+  make_salita("No");
+} else {
+  make_sabi("Yay");
+}

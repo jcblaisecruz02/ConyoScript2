@@ -1,0 +1,7 @@
+so_like sum = 0;
+so_like i = 100;
+habang_like (i != 0) {
+  sum = sum + i;
+  i = i - 1;
+}
+make_salita("Sum = " + sum);

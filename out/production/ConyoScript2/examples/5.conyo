@@ -1,0 +1,10 @@
+so_like fMULTIPLIER = 2.0;
+so_like fDIVIDER = 1.5;
+so_like x = 0;
+so_like y = 0;
+so_like z = 0;
+x = x + 4;
+y = y + 5;
+z = z + 6;
+so_like finalValue = (((x + y) * fMULTIPLIER) / fDIVIDER + x + y) - y * fMULTIPLIER;
+make_salita("Value is: " + (finalValue * fMULTIPLIER * fMULTIPLIER));

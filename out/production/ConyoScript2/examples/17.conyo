@@ -1,0 +1,2 @@
+so_like x = 2;
+x = x + "hello";

@@ -1,0 +1,11 @@
+make_gawa fib(n) {
+  if_like (n <= 1) {
+    make_balik n;
+  } else {
+    make_balik fib(n-1) + fib(n-2);
+  }
+}
+make_salita("Enter a number: ");
+so_like number = make_basa("%d");
+so_like answer = fib(number);
+make_salita("The answer is " + answer);

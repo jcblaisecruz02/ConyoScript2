@@ -1,0 +1,7 @@
+make_salita("Enter first name: ");
+so_like fname = make_basa("%s");
+make_salita("Enter middle name: ");
+so_like mname = make_basa("%s");
+make_salita("Enter last name: ");
+so_like lname = make_basa("%s");
+make_sabi("Welcome " + fname + " " + mname + " " + lname + "!");

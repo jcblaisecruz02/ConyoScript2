@@ -1,0 +1,17 @@
+make_salita(" ");
+like_habang(so_like i = 1; i <= 9; i = i + 1) {
+  make_salita(" " + 1);
+}
+make_sabi("");
+make_sabi("-----------------");
+like_habang(so_like i = 1; i <= 9; i = i + 1) {
+  make_salita("" + i + "|");
+  like_habang(so_like j = 1; j <= 9; j = j + 1) {
+    if_like (i * j < 10) {
+      make_salita(" " + i * j + " ");
+    } else {
+      make_salita(" " + i * j + " ");
+    }
+  }
+  make_sabi("");
+}

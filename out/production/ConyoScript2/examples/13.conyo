@@ -1,0 +1,9 @@
+make_gawa test() {
+  make_balik 4;
+}
+so_like num = 2;
+if_like (num * 3 > test() and !(num + 3 > 6)) {
+  make_salita("Yay");
+} else {
+  make_sabi("No");
+}

@@ -1,0 +1,5 @@
+so_like x = 0;
+if_like (x == 0) {
+  so_like y = 2;
+}
+make_sabi("Y is undeclared " + y);
