@@ -2,7 +2,7 @@
 ConyoScript is a lightweight scripting language that mimics how we speak on a daily basis in order to facilitate easier coding.  Make sulat code like parang how we speak, dudeparechong! 
 
 ### Syntax and Semantics
-ConyoScript is very similar to JavaScript. Here is an example, inputting a number and returning it's fibonacci number:
+ConyoScript is very similar to JavaScript. Here is an example, inputting a number and returning its fibonacci number:
 
 ```$xslt
 make_gawa fib(n) {
@@ -20,4 +20,4 @@ make_sabi("Fibonacci of that number is: " + fib(num));
 Please import the .iml file as a project in IntelliJ IDEA. It should also theoretically work on a vanilla Java compiler.
 
 ### Changelog
-This is a work in progress, so please keep checking here!
+This was a project for grad school compiler design class, so it's not maintained. Do feel free to drop by the issues tab for comments though!
